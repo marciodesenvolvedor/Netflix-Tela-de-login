@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="img/netflix.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="login_body">
+        <div class="login_box">
+            <h2><a href="#">Entrar</h2></a>
+            <form>
+                <div class="input_box">
+                    <input required type="email" placeholder="Email ou Número de Telefone">
+                </div>
+            <div class="input_box">
+                <input required type="password" placeholder="Senha">
+            </div>
+
+            <div>
+                <button class="button type="submit" [disabled]="!form.form.valid">
+                    Entrar
+                </button>">
+                   
+                </div>
+            </form>
+
+                <div class="fa-support">
+                <div class="remember">
+                    <span><input type="checkbox" style="margin: 0; padding: 0; height: 13px;"></span>
+                    <span>Lembre-se de Mim</span>
+                </div>
+                <div class="Help">
+                    <a href="#">
+                        Precisa de Ajuda?
+                    </a>
+                </div>    
+            </div>
+            <div class="login_footer">
+                <div class="Login_facebook">
+                    <span><img src="img/Facebook_pequeno_3.png"></span>
+                    <span><a href="#">Conectar Com Facebook</a> </span>
+
+                </div>
+                <div class="sign-up">
+                    <p><a href="#">Novo por Aqui?</a> <a href="#">Assine Agora.</a></p>
+
+                </div>
+                <div class="terms">
+                    <p> <a href="#">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.</a> <a href="#">Saiba mais</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
